@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 84%;
+    padding: 1rem;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: red;
+}
